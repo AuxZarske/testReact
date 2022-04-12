@@ -1,43 +1,10 @@
-Desafio corresponde en obtener datos del endpoint declarado 
-y renderizar las cards con los datos que el component requiere
+# "Test React - Solved"
 
-Se dejará declarado el endpoint y un ejemplo de su response.
+[<img src="https://cdn.gomix.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Fremix-button.svg" width="163px" />](https://glitch.com/edit/#!/import/github/AuxZarske/testReact)
 
-La prueba se realizará dentro de los componentes "Test" y "Card", además no
-se podrán añadir dependencias
+**Deploy by clicking the button above**
 
-Se valora:
--Actitud para enfrentar este pequeño desafio.
--productividad del codigo.
--Sintaxis limpia.
+**Description:**
 
-Endpoint:
-https://randomuser.me/api/?results=9&exc=gender,location,login,dob,registered,id
-
-//response:
-{
-	"results": [
-		{
-			"name": {
-				"title": "Ms",
-				"first": "Valentina",
-				"last": "Engdal"
-			},
-			"email": "valentina.engdal@example.com",
-			"phone": "71541772",
-			"cell": "47903916",
-			"picture": {
-				"large": "https://randomuser.me/api/portraits/women/45.jpg",
-				"medium": "https://randomuser.me/api/portraits/med/women/45.jpg",
-				"thumbnail": "https://randomuser.me/api/portraits/thumb/women/45.jpg"
-			},
-			"nat": "NO"
-		}
-  ],
-	"info": {
-		"seed": "bf8f329b66a00704",
-		"results": 9,
-		"page": 1,
-		"version": "1.3"
-	}
-}
+Solution to the proposed test: 
+[Test github repository](https://github.com/FacuCarbon/test-react)
