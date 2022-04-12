@@ -4,7 +4,7 @@ const Card = ({data}) => {
 
   return  (
     <div className="card">
-      <img src={data.picture.large} alt="photo"  />  
+      <img src={data.picture.large} alt={`photo ${data.name.last} ${data.name.first} `}  />  
       <section className="infoUser">
         <h1>
         {data.name.title}. {data.name.last} {data.name.first} 
