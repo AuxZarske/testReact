@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Card from "./Card"
 
-const Test = () => {
+const Test = ({width}) => {
 
   const URL = 'https://randomuser.me/api/?results=9&exc=gender,location,login,dob,registered,id';
   const [items, setItems] = useState([]);
@@ -38,7 +38,11 @@ const Test = () => {
 
         {/* Render every card adding its data */}
         {items.map((value, index) => (
-          <Card key={index} data={value} />
+          <Card 
+            key={index} 
+            data={value} 
+            width={width}
+            />
         ))}
 
       </div>}
